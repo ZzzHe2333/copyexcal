@@ -106,7 +106,7 @@ def open_and_copy_xlsx():
         xunhuan_chushi += 1
         xunhuan_y += 1
         pass
-    print (passwords)
+    # print (passwords) #debug的时候用
     # 检查密码是否在密码库中
     if check_password(user_input_password):
         file_path = filedialog.askopenfilename(filetypes=[("Excel Files", "*.xlsx")])
